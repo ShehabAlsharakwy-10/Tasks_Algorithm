@@ -1,0 +1,52 @@
+Part (a): Algorithms for Heap-Sort
+
+1. Max-Heapify Algorithm
+This ensures that the subtree rooted at a given node maintains the max-heap property
+
+Input: Array `arr`, index `i`, size `n`.
+Output: Max-heap structure for the subtree rooted at `i`.
+
+1. Let `largest = i` (assume root is the largest).
+2. Let `left = 2 * i + 1` (left child index).
+3. Let `right = 2 * i + 2` (right child index).
+4. If `left < n` and `arr[left] > arr[largest]`, set `largest = left`.
+5. If `right < n` and `arr[right] > arr[largest]`, set `largest = right`.
+6. If `largest != i`:
+    a. Swap `arr[i]` and `arr[largest]`.
+    b. Call `Max-Heapify(arr, largest, n)` recursively.
+
+2. Build-Max-Heap Algorithm
+This transforms the input array into a max-heap.
+
+Input: Array `arr` of size `n`.
+Output: Array structured as a max-heap.
+
+1. For `i = floor(n / 2) - 1` to `0` (process non-leaf nodes):
+    a. Call `Max-Heapify(arr, i, n)`.
+
+
+3. Heap-Sort Algorithm
+This sorts the array using the heap structure.
+
+Input: Array `arr` of size `n`.
+Output: Sorted array `arr`.
+
+1. Call `Build-Max-Heap(arr, n)`.
+2. For `i = n - 1` to `1`:
+    a. Swap `arr[0]` and `arr[i]` (move the max element to the end).
+    b. Call `Max-Heapify(arr, 0, i)` to restore the max-heap property.
+------------------------------------------------------------------------------
+
+Part (b): Analysis of Algorithms
+
+1. Time Complexity
+ 1. Max-Heapify : O(log n) for a single call because it processes along the height of the heap. 
+ 2. Build-Max-Heap : O(n) because it calls Max-Heapify for n/2 elements
+ 3. Heap-Sort : O(n log n ) because it repeatedly extracts the maximum (calling Max-Heapify n times).
+2. Space Complexity
+  Heap-Sort is an in-place sorting algorithm, so its space complexity is O(1) .
+
+------------------------------------------------------------------------------
+ 
+
+
