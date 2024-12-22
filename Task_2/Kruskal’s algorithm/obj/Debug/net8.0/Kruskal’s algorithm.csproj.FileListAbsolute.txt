@@ -1,0 +1,14 @@
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\bin\Debug\net8.0\Kruskal’s algorithm.exe
+C:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\bin\Debug\net8.0\Kruskal’s algorithm.deps.json
+C:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\bin\Debug\net8.0\Kruskal’s algorithm.runtimeconfig.json
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\bin\Debug\net8.0\Kruskal’s algorithm.dll
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\bin\Debug\net8.0\Kruskal’s algorithm.pdb
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\Kruskal’s algorithm.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\Kruskal’s algorithm.AssemblyInfoInputs.cache
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\Kruskal’s algorithm.AssemblyInfo.cs
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\Kruskal’s algorithm.csproj.CoreCompileInputs.cache
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\Kruskal’s algorithm.dll
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\refint\Kruskal’s algorithm.dll
+c:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\Kruskal’s algorithm.pdb
+C:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\Kruskal’s algorithm.genruntimeconfig.cache
+C:\Users\AS\Desktop\Algorithm\Task_2\Kruskal’s algorithm\obj\Debug\net8.0\ref\Kruskal’s algorithm.dll

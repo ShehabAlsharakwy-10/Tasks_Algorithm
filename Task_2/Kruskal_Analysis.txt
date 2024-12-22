@@ -1,0 +1,29 @@
+
+Write all required algorithms needed to find MST using Kruskal’s Algorithm 
+
+    1- sort all the edges in the graph in non-decreasing order of their weights.
+    2- Initialize the Disjoint-Set (Union-Find) data structure to keep track of the connected components.
+    3- Iterate over the edges For each edge, check if the vertices belong to the same component using the Disjoint-Set Find function.
+      If not, add the edge to the MST and perform a Union of the two vertices.
+    4- Stop after V−1 edges have been added to the MST.
+
+Analysis of Algorithms 
+
+    1. Sorting Edges
+        Algorithm Sort edges by weight using a comparison-based sort (MergeSort).
+        Time Complexity O(Elog⁡E), where E is the number of edges.
+        Space Complexity O(E) for the sorted edges.
+
+    2. Disjoint-Set (Union-Find)
+        Find Operation Finds the representative element (root) of a subset with path compression for optimization.
+        Union Operation Merges two subsets using union by rank to maintain a balanced tree structure.
+        Time Complexity O(α(V)) for each operation, where αα is the inverse Ackermann function (practically constant).
+          
+    3. Iterating Through Edges
+        For each edge, check if its vertices are in the same set using Find. If not, add it to the MST and merge sets using Union.
+        Time Complexity O(E⋅α(V)).
+
+      Overall Complexity
+
+      Dominated by sorting the edges O(Elog⁡E).
+      Space Complexity O(V+E).
